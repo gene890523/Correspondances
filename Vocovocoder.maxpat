@@ -1697,7 +1697,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "fft.maxpat",
-				"bootpath" : "~/Desktop/Courses/大二下/電腦音樂/Correspondances",
+				"bootpath" : "~/Desktop/Courses/2nd_spring/computer_music/Correspondances",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
