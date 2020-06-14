@@ -1,7 +1,11 @@
 # Correspondences
-Electronic music based on the poem Correspondences by Baudelaire
+Electronic music based on the poem Correspondences by Baudelaire.
 
 
+Open the program launch.maxpat first,
+and follow the instruction at the upper left cornor.
+If you fail to automatically launch files,
+please follow the launch process below
 
 Launch Process
 
