@@ -126,7 +126,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 922.0, 594.0, 43.0, 22.0 ],
+					"patching_rect" : [ 905.0, 500.0, 43.0, 22.0 ],
 					"text" : "s key2"
 				}
 
@@ -137,7 +137,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 821.0, 594.0, 43.0, 22.0 ],
+					"patching_rect" : [ 804.0, 500.0, 43.0, 22.0 ],
 					"text" : "s key1"
 				}
 
@@ -149,7 +149,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 922.0, 511.0, 66.0, 22.0 ],
+					"patching_rect" : [ 905.0, 417.0, 66.0, 22.0 ],
 					"text" : "r pad_num"
 				}
 
@@ -172,7 +172,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 821.0, 511.0, 65.0, 22.0 ],
+					"patching_rect" : [ 804.0, 417.0, 65.0, 22.0 ],
 					"text" : "r key_num"
 				}
 
@@ -257,7 +257,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 821.0, 550.0, 121.0, 22.0 ],
+					"patching_rect" : [ 804.0, 456.0, 121.0, 22.0 ],
 					"text" : "gate 2"
 				}
 
@@ -751,7 +751,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 772.0, 291.5, 97.0, 33.0 ],
+					"patching_rect" : [ 772.0, 291.5, 102.0, 33.0 ],
 					"text" : "theta value of line2"
 				}
 
@@ -1136,13 +1136,28 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.101960784313725, 0.63921568627451, 0.145098039215686, 1.0 ],
+					"bgcolor" : [ 0.196078431372549, 0.474509803921569, 0.384313725490196, 1.0 ],
 					"id" : "obj-53",
 					"maxclass" : "panel",
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 25.0, 32.0, 403.0, 453.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.270588235294118, 0.647058823529412, 0.415686274509804, 1.0 ],
+					"id" : "obj-6",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.5, 540.0, 1082.0, 877.0 ],
 					"proportion" : 0.5
 				}
 
@@ -1264,7 +1279,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
+					"destination" : [ "obj-11", 1 ],
 					"order" : 2,
 					"source" : [ "obj-19", 0 ]
 				}
@@ -1645,7 +1660,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-84", 0 ],
+					"destination" : [ "obj-84", 1 ],
 					"order" : 2,
 					"source" : [ "obj-91", 0 ]
 				}

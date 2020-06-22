@@ -39,6 +39,144 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-221",
+					"lockeddragscroll" : 0,
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 4,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "" ],
+					"patching_rect" : [ 614.0, 265.0, 126.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "amxd~",
+							"parameter_shortname" : "amxd~",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"patchername" : "Bassline.amxd",
+						"patchername_fallback" : "C74:/packages/Max for Live/patchers/Max Instrument/Bassline/Bassline.amxd"
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "max~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"name" : "Bassline.amxd",
+							"origname" : "C74:/packages/Max for Live/patchers/Max Instrument/Bassline/Bassline.amxd",
+							"valuedictionary" : 							{
+								"parameter_values" : 								{
+									"2nd_wave" : 0.0,
+									"attack" : 0.0,
+									"attack_filt" : 0.0,
+									"cut" : 0.0,
+									"decay" : 0.0,
+									"decay_filt" : 0.0,
+									"env" : 0.0,
+									"filt_type" : 0.0,
+									"glide" : 0.0,
+									"key" : 0.0,
+									"level" : 0.0,
+									"mod_filt" : 0.0,
+									"mod_wave" : 0.0,
+									"polyphony" : 1.0,
+									"release" : 0.0,
+									"release_filt" : 0.0,
+									"res" : 0.0,
+									"speed" : 0.0,
+									"subosc" : 0.0,
+									"sustain" : 0.0,
+									"sustain_filt" : 0.0,
+									"wave" : 0.0
+								}
+
+							}
+
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Bassline.amxd",
+									"origin" : "Bassline.amxd",
+									"type" : "amxd",
+									"subtype" : "Undefined",
+									"embed" : 0,
+									"snapshot" : 									{
+										"name" : "Bassline.amxd",
+										"origname" : "C74:/packages/Max for Live/patchers/Max Instrument/Bassline/Bassline.amxd",
+										"valuedictionary" : 										{
+											"parameter_values" : 											{
+												"2nd_wave" : 0.0,
+												"attack" : 0.0,
+												"attack_filt" : 0.0,
+												"cut" : 0.0,
+												"decay" : 0.0,
+												"decay_filt" : 0.0,
+												"env" : 0.0,
+												"filt_type" : 0.0,
+												"glide" : 0.0,
+												"key" : 0.0,
+												"level" : 0.0,
+												"mod_filt" : 0.0,
+												"mod_wave" : 0.0,
+												"polyphony" : 1.0,
+												"release" : 0.0,
+												"release_filt" : 0.0,
+												"res" : 0.0,
+												"speed" : 0.0,
+												"subosc" : 0.0,
+												"sustain" : 0.0,
+												"sustain_filt" : 0.0,
+												"wave" : 0.0
+											}
+
+										}
+
+									}
+,
+									"fileref" : 									{
+										"name" : "Bassline.amxd",
+										"filename" : "Bassline.amxd.maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "70ea9266d69fa06694a323f991667771"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"text" : "amxd~ Bassline.amxd",
+					"varname" : "amxd~",
+					"viewvisibility" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-218",
 					"maxclass" : "gain~",
 					"multichannelvariant" : 0,
@@ -1125,7 +1263,28 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
+		"parameters" : 		{
+			"obj-221" : [ "amxd~", "amxd~", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "Bassline.amxd.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Bassline.amxd",
+				"bootpath" : "C74:/packages/Max for Live/patchers/Max Instrument/Bassline",
+				"type" : "amxd",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
