@@ -44,7 +44,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 431.0, 346.0, 75.0, 22.0 ],
+					"patching_rect" : [ 431.0, 407.0, 75.0, 22.0 ],
 					"text" : "gran.maxpat"
 				}
 
@@ -56,7 +56,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 445.0, 376.0, 119.0, 22.0 ],
+					"patching_rect" : [ 445.0, 437.0, 119.0, 22.0 ],
 					"text" : "audio_player.maxpat"
 				}
 
@@ -70,18 +70,6 @@
 					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang" ],
 					"patching_rect" : [ 191.0, 232.5, 197.5, 22.0 ],
 					"text" : "t b b b b b b b b b b b b b b b b b b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 479.0, 438.0, 120.0, 22.0 ],
-					"text" : "Vocovocoder.maxpat"
 				}
 
 			}
@@ -201,20 +189,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 522.0, 502.0, 77.0, 22.0 ],
+					"patching_rect" : [ 474.0, 500.0, 77.0, 22.0 ],
 					"text" : "main.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-71",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 500.0, 469.0, 103.0, 22.0 ],
-					"text" : "EQ&Filter.maxpat"
 				}
 
 			}
@@ -225,7 +201,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 459.5, 408.0, 253.0, 22.0 ],
+					"patching_rect" : [ 459.5, 469.0, 253.0, 22.0 ],
 					"text" : "Seesion1/Correspondances_Section1.maxpat"
 				}
 
@@ -298,7 +274,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 541.0, 611.0, 668.0, 35.0 ],
-					"text" : ";\rmax launchbrowser file:///Users/gene/Desktop/Courses/2nd_spring/computer_music/Correspondances/gran.maxpat"
+					"text" : ";\rmax launchbrowser file:///Users/gene/Desktop/Courses/2nd_spring/computer_music/Correspondances/main.maxpat"
 				}
 
 			}
@@ -462,14 +438,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 284.5, 432.0, 488.5, 432.0 ],
-					"source" : [ "obj-3", 8 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"midpoints" : [ 379.0, 333.0, 440.5, 333.0 ],
 					"source" : [ "obj-3", 17 ]
@@ -494,16 +462,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-71", 0 ],
-					"midpoints" : [ 253.0, 462.0, 509.5, 462.0 ],
-					"source" : [ "obj-3", 5 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-73", 0 ],
-					"midpoints" : [ 221.5, 495.0, 531.5, 495.0 ],
+					"midpoints" : [ 221.5, 495.0, 483.5, 495.0 ],
 					"source" : [ "obj-3", 2 ]
 				}
 
@@ -520,14 +480,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-41", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 3 ],
-					"midpoints" : [ 488.5, 542.0, 527.0, 542.0 ],
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -579,15 +531,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 3 ],
-					"midpoints" : [ 509.5, 542.0, 527.0, 542.0 ],
-					"source" : [ "obj-71", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 3 ],
-					"midpoints" : [ 531.5, 551.0, 527.0, 551.0 ],
+					"midpoints" : [ 483.5, 543.0, 527.0, 543.0 ],
 					"source" : [ "obj-73", 0 ]
 				}
 
@@ -613,12 +557,10 @@
 		"styles" : [ 			{
 				"name" : "jfc-style",
 				"default" : 				{
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"fontsize" : [ 10.0 ],
 					"elementcolor" : [ 0.614285, 0.654518, 0.758022, 1.0 ],
-					"color" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"selectioncolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+					"color" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.65098, 0.666667, 0.662745, 0.9 ],
 					"bgfillcolor" : 					{
@@ -629,7 +571,9 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-
+,
+					"fontsize" : [ 10.0 ],
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
