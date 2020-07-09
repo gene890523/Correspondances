@@ -10,7 +10,11 @@
 		}
 ,
 		"classnamespace" : "box",
+<<<<<<< HEAD
+		"rect" : [ 77.0, 79.0, 1113.0, 787.0 ],
+=======
 		"rect" : [ 34.0, 74.0, 1329.0, 787.0 ],
+>>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +43,98 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+<<<<<<< HEAD
+					"fontsize" : 18.0,
+					"id" : "obj-64",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 17.0, 17.0, 221.0, 52.0 ],
+					"text" : "作者：\n王博君（Po-Chun Wang）"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-62",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1011.095860421657562, 22.592915654182434, 209.0, 69.0 ],
+					"text" : "Internal Gain Controller\n我在這個部分調整音量各個Patch的內部音量"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-52",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 511.274289071559906, 257.0, 137.725710928440094, 32.0 ],
+					"text" : "低音和弦的開關"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-42",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 17.0, 385.0, 193.0, 132.0 ],
+					"text" : "這裡設定一個Mute鍵，只需要按下m鍵，就會直接關掉總輸出，避免突然的Feedback導致輸出爆掉，隨時可以關掉，保護音響和耳朵。"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-38",
+					"linecount" : 13,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 17.0, 85.519171476364136, 248.0, 273.0 ],
+					"text" : "解說\n這是我們的Main Patch，功用是監控和調整不同Patch之間的音量，並且驅動其他Patch。\n我的設計是右邊的區塊作為Gain Controller，監控並調整個別的Patch內部的輸出，避免在輸出到Main Patch前就爆掉了。\n下方是總輸出，監控並調整最後的輸出。"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-25",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 402.725710928440094, 501.584104478359222, 180.0, 132.0 ],
+					"text" : "控制總輸出的音量，若是疊加起來超過音量上限可以調整。\n之所以不用live.gain~是因為不知道怎麼用數值控制它。"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 839.679180681705475, 85.519171476364136, 29.5, 22.0 ],
+					"text" : "100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+=======
+>>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 					"id" : "obj-66",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -106,7 +202,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
+<<<<<<< HEAD
+					"patching_rect" : [ 989.595860421657562, 542.75958514213562, 242.0, 29.0 ],
+=======
 					"patching_rect" : [ 994.595860421657562, 542.75958514213562, 242.0, 29.0 ],
+>>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 					"presentation" : 1,
 					"presentation_rect" : [ 769.825940728187561, 105.184360831975937, 164.0, 29.0 ],
 					"text" : "start end duration"
@@ -234,10 +334,17 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
+<<<<<<< HEAD
+					"patching_rect" : [ 1054.672554194927216, 154.259585738182068, 95.0, 51.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 649.190955817699432, 28.985248386859894, 95.0, 51.0 ],
+=======
 					"patching_rect" : [ 1054.672554194927216, 154.259585738182068, 94.738939762115479, 51.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 649.190955817699432, 28.985248386859894, 94.738939762115479, 51.0 ],
+>>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 					"text" : "Granular\nSynthesis"
 				}
 
@@ -307,7 +414,11 @@
 					"patching_rect" : [ 1154.095847427845001, 546.25958514213562, 183.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 769.825940728187561, 147.436548948287964, 183.0, 22.0 ],
+<<<<<<< HEAD
+					"text" : "start 5200 5225 23.449421"
+=======
 					"text" : "start 35345 39220 3755.866475"
+>>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 				}
 
 			}
@@ -471,7 +582,11 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+<<<<<<< HEAD
+					"patching_rect" : [ 978.679180681705475, 85.519171476364136, 29.5, 22.0 ],
+=======
 					"patching_rect" : [ 843.429180681705475, 70.592915654182434, 29.5, 22.0 ],
+>>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 					"text" : "128"
 				}
 
@@ -541,6 +656,8 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD
+=======
 					"id" : "obj-40",
 					"linecount" : 8,
 					"maxclass" : "comment",
@@ -565,6 +682,7 @@
 			}
 , 			{
 				"box" : 				{
+>>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 					"id" : "obj-29",
 					"maxclass" : "live.meter~",
 					"numinlets" : 1,
@@ -596,7 +714,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
+<<<<<<< HEAD
+					"patching_rect" : [ 110.0, 519.0, 150.0, 47.0 ],
+=======
 					"patching_rect" : [ 216.0, 47.0, 150.0, 47.0 ],
+>>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 					"text" : "Control Key\n\nm - mute"
 				}
 
@@ -657,7 +779,11 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
+<<<<<<< HEAD
+					"patching_rect" : [ 22.0, 634.0, 45.0, 22.0 ],
+=======
 					"patching_rect" : [ 56.0, 145.0, 45.0, 22.0 ],
+>>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 					"text" : "s mute"
 				}
 
@@ -669,7 +795,11 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
+<<<<<<< HEAD
+					"patching_rect" : [ 22.0, 585.0, 47.0, 22.0 ],
+=======
 					"patching_rect" : [ 56.0, 96.0, 47.0, 22.0 ],
+>>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 					"text" : "sel 109"
 				}
 
@@ -682,7 +812,11 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
+<<<<<<< HEAD
+					"patching_rect" : [ 105.0, 570.0, 50.0, 22.0 ]
+=======
 					"patching_rect" : [ 139.0, 81.0, 50.0, 22.0 ]
+>>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 				}
 
 			}
@@ -693,7 +827,11 @@
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
+<<<<<<< HEAD
+					"patching_rect" : [ 22.0, 536.0, 50.5, 22.0 ],
+=======
 					"patching_rect" : [ 56.0, 47.0, 50.5, 22.0 ],
+>>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 					"text" : "key"
 				}
 
@@ -870,6 +1008,16 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
+					"destination" : [ "obj-48", 0 ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+=======
+>>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 					"destination" : [ "obj-1", 0 ],
 					"order" : 0,
 					"source" : [ "obj-3", 1 ]
@@ -886,7 +1034,20 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
+					"destination" : [ "obj-27", 0 ],
+					"order" : 0,
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
+					"order" : 1,
+=======
+					"destination" : [ "obj-32", 0 ],
+>>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -1018,31 +1179,52 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
+					"destination" : [ "obj-27", 0 ],
+					"order" : 1,
+=======
 					"destination" : [ "obj-58", 0 ],
+>>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 					"source" : [ "obj-55", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
+					"destination" : [ "obj-58", 0 ],
+					"order" : 0,
+					"source" : [ "obj-55", 0 ]
+=======
 					"destination" : [ "obj-3", 0 ],
 					"order" : 0,
 					"source" : [ "obj-58", 0 ]
+>>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
+					"destination" : [ "obj-3", 0 ],
+					"order" : 0,
+=======
 					"destination" : [ "obj-37", 0 ],
 					"order" : 1,
+>>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 					"source" : [ "obj-58", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
+					"destination" : [ "obj-37", 0 ],
+					"order" : 1,
+=======
 					"destination" : [ "obj-48", 0 ],
 					"order" : 2,
+>>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 					"source" : [ "obj-58", 0 ]
 				}
 
@@ -1067,6 +1249,16 @@
 		"styles" : [ 			{
 				"name" : "jfc-style",
 				"default" : 				{
+<<<<<<< HEAD
+					"color" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"elementcolor" : [ 0.614285, 0.654518, 0.758022, 1.0 ],
+					"selectioncolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"patchlinecolor" : [ 0.65098, 0.666667, 0.662745, 0.9 ],
+					"fontsize" : [ 10.0 ],
+=======
 					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"elementcolor" : [ 0.614285, 0.654518, 0.758022, 1.0 ],
@@ -1075,6 +1267,7 @@
 					"selectioncolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.65098, 0.666667, 0.662745, 0.9 ],
+>>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
