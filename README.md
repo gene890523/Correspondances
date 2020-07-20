@@ -43,7 +43,7 @@ Youtube: https://youtu.be/rRHc1kgiS0Q
 此Patch用來自動開啟所需要的檔案，請按照上方所寫的步驟使用。
 可以照著規則任意增加需要開啟的檔案，惟須注意main.maxpat必須最後一個開啟。
 
-使用步驟
+#### 使用步驟
 Step 1: Drag the folder of these programs, Correspondances.
 
 Step 2: Click the button
@@ -53,31 +53,35 @@ Step 3: Save this program for automatically launch files when open this lauching
 
 ### main.maxpat （作者王博君）
 
-Main Patch，功用是監控和調整不同Patch之間的音量，並且驅動其他Patch。
-我的設計是右邊的區塊作為Gain Controller，監控並調整個別的Patch內部的輸出，避免在輸出到Main Patch前就爆掉了。
+#### Main Patch:
+功用是監控和調整不同Patch之間的音量，並且驅動其他Patch。
+我的設計是右邊的區塊作為Gain 
+
+#### Controller:
+監控並調整個別的Patch內部的輸出，避免在輸出到Main Patch前就爆掉了。
 下方是總輸出，監控並調整最後的輸出。
 
 
 ### Correspondances_1_Final.maxpat
 
-Patch的主控區：
+#### Patch的主控區：
 
 控制音樂的開始與結束。
 
 除了可以直接在電腦上操作以外，
 我們亦在表演時的手機介面上，放置開關，以利隨時做調整。
 
-作品第一段的核心：
+#### 作品第一段的核心：
 
 此為Baudelaire - "Correspondances"的全詩朗誦音檔。
 希望在一開始，能夠呈現詩詞裡最純粹的抑揚頓挫，而往後再加以變化、變形。
 
-四組cycle～音堆：
+#### 四組cycle～音堆：
 
 運用delay由左至右，循序漸進地疊加出整首作品的background。
 而其中，每組音堆利用counter區分成0和1，再以line～使其做出漸強漸弱的效果。
 
-音量控制區：
+#### 音量控制區：
 
 因應不同需求，以line物件將音量由弱轉強、或由強轉弱。
 運用四組音堆攀高近似12個半音，以在作品最後增加張力：
