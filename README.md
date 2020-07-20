@@ -1,5 +1,7 @@
 # Correspondences
+
 ### Electronic music based on the poem Correspondences by Baudelaire.
+### Programmed and composed by 陳逸凡、林邵奇、王博君、李昀諭
 
 
 Open the program launch.maxpat first,
