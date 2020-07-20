@@ -9,7 +9,7 @@ please follow the launch process below
 
 <<<<<<< HEAD
 
- <h1> Launch Process
+ # Launch Process
 
 1. Open audio_player.maxpat, gran.maxpat and Correspondances_Section1_Pitchshift_2.maxpat (in the folder Seesion1). Then, open main.maxpat
 
