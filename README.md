@@ -62,7 +62,7 @@ Step 3: Save this program for automatically launch files when open this lauching
 下方是總輸出，監控並調整最後的輸出。
 
 
-### Correspondances_1_Final.maxpat
+### Correspondances_1_Final.maxpat （作者陳逸凡）
 
 #### Patch的主控區：
 
