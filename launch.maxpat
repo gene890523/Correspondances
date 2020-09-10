@@ -10,11 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-<<<<<<< HEAD
 		"rect" : [ 79.0, 79.0, 899.0, 787.0 ],
-=======
-		"rect" : [ 79.0, 79.0, 1115.0, 787.0 ],
->>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,7 +39,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-<<<<<<< HEAD
 					"fontsize" : 18.0,
 					"id" : "obj-10",
 					"linecount" : 7,
@@ -70,8 +65,6 @@
 			}
 , 			{
 				"box" : 				{
-=======
->>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 					"id" : "obj-6",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -114,11 +107,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-<<<<<<< HEAD
 					"patching_rect" : [ 13.0, 58.0, 285.0, 167.0 ],
-=======
-					"patching_rect" : [ 24.0, 15.0, 285.0, 167.0 ],
->>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 					"text" : "Step 1: Drag the folder of these programs, Correspondances.\n\nStep 2: Click the button\n\nStep 3: Save this program for automatically launch files when open this lauching program."
 				}
 
@@ -238,13 +227,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-<<<<<<< HEAD
 					"patching_rect" : [ 459.5, 469.0, 192.0, 22.0 ],
 					"text" : "Correspondances_1_Final.maxpat"
-=======
-					"patching_rect" : [ 459.5, 469.0, 253.0, 22.0 ],
-					"text" : "Seesion1/Correspondances_Section1.maxpat"
->>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 				}
 
 			}
@@ -354,11 +338,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-<<<<<<< HEAD
 					"midpoints" : [ 399.5, 225.0, 200.5, 225.0 ],
-=======
-					"midpoints" : [ 399.5, 261.0, 200.5, 261.0 ],
->>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -603,7 +583,6 @@
 		"styles" : [ 			{
 				"name" : "jfc-style",
 				"default" : 				{
-<<<<<<< HEAD
 					"color" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -612,14 +591,6 @@
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.65098, 0.666667, 0.662745, 0.9 ],
 					"fontsize" : [ 10.0 ],
-=======
-					"elementcolor" : [ 0.614285, 0.654518, 0.758022, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"selectioncolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-					"color" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"patchlinecolor" : [ 0.65098, 0.666667, 0.662745, 0.9 ],
->>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -628,13 +599,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-<<<<<<< HEAD
 
-=======
-,
-					"fontsize" : [ 10.0 ],
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
->>>>>>> baecff50a2182685f1e75e2f48b132b17a924a1d
 				}
 ,
 				"parentstyle" : "",
